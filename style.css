@@ -1,5 +1,5 @@
 /*--------height, width, border------------*/
-div{
+#divmain{
     background-color: pink;
     height: 50px;
     width: 200px;
@@ -19,6 +19,37 @@ h1{
 
 /*------------Border radius-------*/
 #div1{
-    border: 2px solid green;
+    /*---------padding, margin-------------------*/
+    padding-top: 50px;
+    margin-top: 40px;
     border-radius: 50%;
+    border: 2px solid green;
+    width: 120px;
+    height: 80px;
+    text-align: center;
+    background-color: antiquewhite;
 }
+
+#div2{
+    /*---------padding, margin-------------------*/
+    padding-top: 50px;
+    margin-top:40px;
+    border-radius: 20%;
+    border: 2px solid green;
+    width: 120px;
+    height: 80px;
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+#div3{
+    /*---------padding, margin-------------------*/
+    padding-top: 50px;
+    margin-top: 40px;
+    border-radius: 5%;
+    border: 2px solid green;
+    width: 120px;
+    height: 70px;
+    text-align: center;
+    background-color: antiquewhite;
+} 
